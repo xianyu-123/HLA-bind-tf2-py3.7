@@ -3,6 +3,10 @@ HLA-CNN and HLA-Vec
 
 __Ourwork__:Make the program run in the environment of tensorflow2.2 and python3.7, modify the incompatible API interface, and change the necessary environment parameters.
 
+if you use tensorflow2.2,you need to modify keras.optimizer.py line 1, change import tensorflow as tf to import tensorflow.compat.v1 as tf and add tf.disable_v2_behavior(); if notes scipy error, you may need install scipy==1.2.0; if notes tensorflow_contrib not found in tensorboard, you need change tensorflow_contrib to from tensorboard.plugins import projector. etc
+
+recommend:use tensorflow==1.14
+
 __ourcompany__: [neoantigen](https://www.neoantigen.cn/)
 
 __Author__: ysvang@uci.edu
