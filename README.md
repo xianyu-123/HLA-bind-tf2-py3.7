@@ -41,7 +41,7 @@ __Requirements__:
 - numpy==1.21.6
 - pandas==1.3.5
 - scipy==1.2.1
-- tensorflow==2.2
+- tensorflow==1.14
 - protobuf==3.20
 - h5py==2.10.0
 - scikit-learn==1.0.2
