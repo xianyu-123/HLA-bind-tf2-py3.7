@@ -37,12 +37,14 @@ __License:__ This project is licensed under the MIT License - see the LICENSE.md
 __Requirements__:
 
 - gensim==2.3.0
-- Keras==2.0.6
+-  Keras==2.2.5
 - numpy==1.21.6
 - pandas==1.3.5
-- scikit_learn==1.1.1
-- scipy==1.4.1
+- scipy==1.2.1
 - tensorflow==2.2
+- protobuf==3.20
+- h5py==2.10.0
+- scikit-learn==1.0.2
 
 __Reference__:
 Vang, Y. S. and Xie, X. (2017) HLA class I binding prediction via convolutional neural networks. https://doi.org/10.1093/bioinformatics/btx264
