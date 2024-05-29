@@ -7,7 +7,7 @@ if you use tensorflow2.2,you need to modify keras.optimizer.py line 1, change im
 
 recommend:use tensorflow==1.14
 
-__ourcompany__: [neoantigen](https://www.neoantigen.cn/)
+__ourcompany__: None
 
 __Author__: ysvang@uci.edu
 
